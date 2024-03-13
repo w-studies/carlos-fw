@@ -2,3 +2,21 @@
   max-width: 330px;
   padding: 1rem;
 }
+
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 55px;
+  max-width: 55px;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.dropdown-container {
+  position: relative;
+}

@@ -1,12 +1,5 @@
 <?php
 
-// define a exibição de erros
-// REMOVA/COMENTE ESSA LINHA QUANDO ENVIAR PARA PRODUÇÃO
-error_reporting(E_ALL);
-
-//inicia a sessão
-session_start();
-
 // defina as variáveis de conexão
 $config = [
   'db_host' => 'localhost',
