@@ -11,15 +11,15 @@
             <div class="row">
               <div class="col-12">
                 <label>Nome:</label>
-                <input type="text" class="form-control" value="<?= $nomeDoUsuario ?>">
+                <input type="text" class="form-control" value="<?= $nomeDoUsuario ?>" required>
               </div>
               <div class="col-md-6 mt-2">
                 <label>Telefone:</label>
-                <input type="tel" class="form-control" value="<?= $telefone ?>">
+                <input type="tel" class="form-control" value="<?= $telefone ?>" required>
               </div>
               <div class="col-md-6 mt-2">
                 <label>Email:</label>
-                <input type="email" class="form-control" value="<?= $email ?>">
+                <input type="email" class="form-control" value="<?= $email ?>" required>
               </div>
             </div>
           </form>

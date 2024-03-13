@@ -25,8 +25,9 @@
           <img src="<?= $_SESSION['user']->avatar ?>" alt="<?= $_SESSION['user']->name ?>">
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item" href="action/?action=9">Action</a></li>
-          <li><a class="dropdown-item" href="settings">Configurações</a></li>
+          <li><a class="dropdown-item" href=""><i class="fa-solid fa-chart-line"></i> Dashboard</a></li>
+          <li><a class="dropdown-item" href="action/?action=9"><i class="fa-solid fa-triangle-exclamation"></i> Action</a></li>
+          <li><a class="dropdown-item" href="settings"><i class="fa-solid fa-gear"></i> Configurações</a></li>
           <li><a class="dropdown-item" href="profile"><i class="fa-regular fa-id-badge"></i> Perfil</a></li>
           <li>
             <hr class="dropdown-divider">
